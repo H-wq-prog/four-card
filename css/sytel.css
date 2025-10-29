@@ -1,0 +1,130 @@
+:root{
+    --font-family: "Poppins", sans-serif;
+    /* color */
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+
+--Grey-500: hsl(234, 12%, 34%);
+--Grey-400: hsl(212, 6%, 44%);
+--White: hsl(0, 0%, 100%);
+}
+
+.continar{
+    height: auto;
+    width: 100%;
+    font-family: var(--font-family);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.continar h1{
+    color: var(--Grey-400);
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.continar h2{
+color: var(--Grey-500);
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.continar p {
+    color: var(--Grey-400);
+    font-size: 12px;
+        width: 30%;
+}
+
+/* .card-continar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+} */
+ .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 30px;
+ }
+
+
+
+.content .card{
+    border-radius: 3px;
+    border-top: 3px solid black;
+    box-shadow: 0 0 10px rgb(67 63 167 / 31%);
+        text-align: left;
+        padding-left: 15px;
+        height: 180px;
+    position: relative;
+}
+
+.content .card h3{
+    color: var(--Grey-500);
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.content .card p{
+    color: var(--Grey-400);
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 300;
+    width: 90%;
+}
+.content .card img{
+        width: 20%;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    transform: translate(-30%, -30%);
+}
+
+.card-1{
+    border-top: 3px solid var(--Cyan) !important;
+    width: 20%;
+}   
+.card-2{
+    border-top: 3px solid var(--Red) !important;
+    width: 90%;
+    margin-bottom: 20px;
+}   
+.card-3{
+    border-top: 3px solid var(--Orange) !important;
+    width: 90%;
+}   
+.card-4{
+    width: 20%;
+    border-top: 3px solid var(--Blue) !important;
+}   
+
+
+.content .flex{
+    width: 22%;
+}
+
+
+@media(max-width:780px){
+.content{
+    flex-direction: column;
+    
+}
+.content .card, .content .flex{
+    width: 80%;
+}
+.content .flex .card{
+    width: 100%;
+}
+.continar p{
+    width: 70%;}
+}

@@ -6,9 +6,9 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](./sk1.png)
-  - [Screenshot](./sk2.png)
-  - [Links](#links)
+  - [Screenshot](sk1.png)
+  - [Screenshot](sk2.png)
+  - [Links](https://github.com/H-wq-prog/four-card.git)
 - [My process](#my-process)
 
 

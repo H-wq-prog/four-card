@@ -9,7 +9,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Screenshot](sk1.png)
   - [Screenshot](sk2.png)
   - [Links](https://github.com/H-wq-prog/four-card.git)
-- [My process](#my-process)
+- [My process](https://h-wq-prog.github.io/four-card/)
 
 
 ### Built with
